@@ -1,12 +1,12 @@
 {
   "name": "contact-management-api",
   "version": "0.1.0",
-   "type": "module",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node server.js"
+    "start": "node server.js",
     "lint": "next lint"
   },
   "dependencies": {
