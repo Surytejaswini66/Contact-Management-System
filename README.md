@@ -1,3 +1,5 @@
+## CONTACT MANAGEMENT SYSTEM
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -16,6 +18,40 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Backend Server Setup
+
+1.Navigate to the backend directory.
+
+2.Install the required dependencies:
+npm install
+
+3.Start the backend server:
+npm start
+
+The backend server should be running on http://localhost:5000 (or the configured port).
+
+## Database Setup:
+
+This project uses a relational database. Follow these steps to set it up:
+1.Create a database (e.g., MySQL, PostgreSQL).
+2.Apply migrations to set up the schema:
+npm run migrate
+
+## Database Schema
+
+1.Include an ER diagram here or link to an external diagram.
+Example:
+
+## API Documentation
+
+You can find the API documentation using Swagger or Postman.
+1.Base URL: http://localhost:5000/api
+2.Endpoints:
+POST /api/auth/register - Register a new user.
+GET /api/contacts - Retrieve contacts with optional filtering and sorting.
+POST /api/contacts - Add a new contact.
+PUT /api/contacts/:id - Update a contact.
+DELETE /api/contacts/:id - Soft delete a contact.
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
@@ -34,3 +70,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Additional Information
+
+C:\Users\Dell\Pictures\Screenshots\Screenshot (214).png
+C:\Users\Dell\Pictures\Screenshots\Screenshot (215).png
+C:\Users\Dell\Pictures\Screenshots\Screenshot (217).png
